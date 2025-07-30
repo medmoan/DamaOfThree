@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dama3</string>
+    <string name="non_empty">Non empty board</string>
+    <string name="empty">Empty board</string>
+</resources>
