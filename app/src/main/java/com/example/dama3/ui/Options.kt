@@ -42,14 +42,11 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.dama3.ui.Options.TAG
 import com.example.domain.states.Difficulty
 import com.example.domain.states.Mode
 import com.example.domain.userConf.UserConf
+const val TAG = "Options-composable"
 
-object Options {
-    const val TAG = "Options-composable"
-}
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Options(modifier: Modifier = Modifier,

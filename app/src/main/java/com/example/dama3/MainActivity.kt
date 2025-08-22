@@ -26,11 +26,11 @@ import kotlinx.serialization.Serializable
 
 //import kotlinx.serialization.Serializable as Serializable
 
-class MainActivity : ComponentActivity() {
-companion object {
-    const val TAG = "MainActivity"
+private const val TAG = "MainActivity"
 
-}
+class MainActivity : ComponentActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

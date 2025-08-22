@@ -60,10 +60,8 @@ fun Dama(modifier: Modifier = Modifier,
             .width(300.dp)
             .height(400.dp)) {
 
-        val vector1 = ImageVector.vectorResource(R.drawable.purple)
-        val vector2 = ImageVector.vectorResource(R.drawable.green)
-        val painter1 = rememberVectorPainter(image = vector1)
-        val painter2 = rememberVectorPainter(image = vector2)
+        val painter1 = rememberVectorPainter(image = ImageVector.vectorResource(R.drawable.purple))
+        val painter2 = rememberVectorPainter(image = ImageVector.vectorResource(R.drawable.green))
         val damaState = getDamaState()
         val pieces = getPieces()
         var spots: Map<Int, Position> = emptyMap()
