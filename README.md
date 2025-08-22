@@ -30,3 +30,11 @@ Get three of your pieces in a straight line (horizontal, vertical, or diagonal) 
     No jumping like in checkers. Just one step at a time.
 
     Winning: Form a straight line of your 3 pieces at any time.
+
+📱 Screenshots:
+
+![Screenshot of a DamaOfThree.](screenshots/1.png)
+![Screenshot of a DamaOfThree.](screenshots/2.png)
+![Screenshot of a DamaOfThree.](screenshots/3.png)
+![Screenshot of a DamaOfThree.](screenshots/4.png)
+![Screenshot of a DamaOfThree.](screenshots/5.png)
